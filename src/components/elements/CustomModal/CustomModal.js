@@ -14,6 +14,4 @@ const CustomModal = ({showModal, title, icon, content, showFooter}) => {
 }
 
 
-
-
 export default CustomModal;
