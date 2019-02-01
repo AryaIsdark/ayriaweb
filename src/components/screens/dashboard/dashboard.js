@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import CustomCard from "../../elements/CustomCard/CustomCard";
 import RecentActivities from "../../modules/recent-acitvities/recent-activities";
 import CustomModal from "../../elements/CustomModal/CustomModal";
-import Profile from "../profile/profile";
 import RateSingleActivity from "../../modules/rate-single-activity/rate-single-activity";
 
 const Dashboard = () => {
