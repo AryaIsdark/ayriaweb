@@ -33,7 +33,6 @@ const RateSingleActivity = ({activityItem, onCancel, onSuccess}) => {
     }
 
     const submit = () =>{
-        console.log(newRating);
         onSuccess();
     }
 

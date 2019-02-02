@@ -1,18 +1,26 @@
-body{
-  background-color: whitesmoke !important;
+body {
+    background-color: whitesmoke !important;
 }
 
 .page-container {
-  background: white;
-  height: calc(100vh - 140px );
-  padding: 15px 10px;
-  border-radius: 6px 6px 0 0;
-  position: relative;
-  top: -200px;
-  box-shadow: 0px -17px 30px -17px #333333;
+    background: white;
+    /*height: calc(100vh - 140px);*/
+    padding: 15px 10px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+    top: -200px;
+    box-shadow: 0px -17px 30px -17px #333333;
 }
 
-.patterned-content{
-  height: 290px;
-  background: url(https://www.noupe.com/wp-content/uploads/2009/10/pattern-01.jpg);
+.patterned-content {
+    height: 290px;
+    background: url(https://www.noupe.com/wp-content/uploads/2009/10/pattern-01.jpg);
+    /*background: silver;*/
 }
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1500px;
+    }
+}
+

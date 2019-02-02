@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Card, CardBody, CardSubtitle, CardText, CardTitle} from "reactstrap";
+import { Card, CardBody, CardSubtitle, CardText, CardTitle} from "reactstrap";
 
 const CustomCard = ({title, icon, image, description, html}) => {
     return (
@@ -8,7 +8,6 @@ const CustomCard = ({title, icon, image, description, html}) => {
                 <CardTitle>{title}</CardTitle>
                 <CardSubtitle>{description}</CardSubtitle>
                 <CardText>{html}</CardText>
-                <Button>Button</Button>
             </CardBody>
         </Card>
     )

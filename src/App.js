@@ -10,9 +10,7 @@ class App extends Component {
             <Router>
                 <div>
                     <Header/>
-                    <div className={'patterned-content'}>
-                        Test
-                    </div>
+                    <div className={'patterned-content'}></div>
                     <div className="container">
                         <Routes/>
                     </div>
