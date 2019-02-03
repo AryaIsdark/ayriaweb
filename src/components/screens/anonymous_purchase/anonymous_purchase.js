@@ -4,10 +4,19 @@ import reducer from './reducer';
 import {Input} from "reactstrap";
 import RateSingleActivity from "../../modules/rate-single-activity/rate-single-activity";
 import StarRatings from "react-star-ratings";
+import CustomModal from "../../elements/CustomModal/CustomModal";
 
 const AnonymousPurchase = () => {
     const initialState = {
-        formObject: {acceptor:{}, rating:0}
+        formObject: {
+            acceptor:{},
+            rating:0,
+            invoiceDate:'',
+            amount:0,
+            attachment: {},
+            paymentType: '',
+
+        }
     };
     const [state, dispatch] = useReducer(reducer, initialState);
     const {formObject} = state;
@@ -21,7 +30,7 @@ const AnonymousPurchase = () => {
 
     return (
         <div>
-            <div>
+            <CustomModal>
                 <div className={'form-group'}>
                     <label>AcceptorId</label>
                     <AcceptorSelect
@@ -58,7 +67,7 @@ const AnonymousPurchase = () => {
                         numberOfStars={5}
                         changeRating={(value) => {dispatch({type: 'updateRate', payload: value})}}/>
                 </div>
-            </div>
+            </CustomModal>
             {JSON.stringify(formObject)}
         </div>
     )
