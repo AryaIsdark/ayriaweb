@@ -3,6 +3,7 @@ import './App.css';
 import Header from "./components/structures/header/header";
 import Routes from "./router/routes";
 import {BrowserRouter as Router} from "react-router-dom";
+import TestComponent from "./components/testcomponent";
 
 class App extends Component {
     render() {

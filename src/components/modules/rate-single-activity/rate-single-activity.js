@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Button} from "reactstrap";
+import {Button, Input, Label} from "reactstrap";
 import StarRatings from 'react-star-ratings';
 
 
@@ -7,25 +7,37 @@ import StarRatings from 'react-star-ratings';
 const RateSingleActivity = ({activityItem, onCancel, onSuccess}) => {
 
 
-    const [newRating, setNewReating] = useState({activityItemId: activityItem.id, rateValue: -1, rateReason:''});
+    const [newRating, setNewReating] = useState({activityItemId: activityItem.id, rateValue: -1, rateReason:[]});
     const reasons = ['reason 1', 'reason 2', 'reason 3'];
-
+    const [selectedReasons, setSelectedReasons] = useState([]);
     const handleOnChangeRateValue = (value) => {
         setNewReating(
             {
-            ...newRating,
+                ...newRating,
                 rateValue: value,
             }
         )
     }
 
-    const handleOnSelectReason = (value) => {
+    const handleOnSelectReason = (event, value) => {
+        let list = selectedReasons;
+        if(event.target.checked){
+            list.push(value);
+            setSelectedReasons(list);
+        }
+        else{
+            list.splice(list.indexOf(value), 1);
+            setSelectedReasons(list);
+        }
+
+        console.log(list);
         setNewReating(
             {
-            ...newRating,
-                rateReason: value,
+                ...newRating,
+                rateReason: list,
             }
         )
+
     }
 
     const cancel = () =>{
@@ -33,6 +45,7 @@ const RateSingleActivity = ({activityItem, onCancel, onSuccess}) => {
     }
 
     const submit = () =>{
+        console.log(newRating);
         onSuccess();
     }
 
@@ -45,11 +58,10 @@ const RateSingleActivity = ({activityItem, onCancel, onSuccess}) => {
             <ul>
                 {reasons.map((element, index) =>
                     <li key={index}>
-                        {element}
-                        <Button color={'success'} className={'btn-success'}
-                                onClick={() => handleOnSelectReason(element)}>
-                            Select
-                        </Button>
+                        <Label check>
+                            <Input type="checkbox" onClick={(event) => handleOnSelectReason(event, element)}   />
+                            {element}
+                        </Label>
                     </li>
                 )}
             </ul>
@@ -57,9 +69,10 @@ const RateSingleActivity = ({activityItem, onCancel, onSuccess}) => {
             <hr></hr>
             <Button onClick={cancel}>Cancel</Button>
             <Button className={'btn-success'} onClick={submit}>Submit</Button>
+            <hr></hr>
+            {JSON.stringify(newRating)}
         </div>
     )
-
 };
 
 export default RateSingleActivity;
