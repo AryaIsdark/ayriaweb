@@ -38,10 +38,11 @@ const App = () => {
             {isAuthenticated && <div>
                 <Header/>
                 <div className={'patterned-content'}></div>
-                <div className="container">
+                <div className="">
                     <Routes/>
                 </div>
             </div>}
+                <footer>کلیه حقوق این سایت متعلق به باشگاه وفاداری آیریا میباشد لطفآ دست نزنید 🤣</footer>
             {!isAuthenticated &&
             <CustomModal showModal={true} title={'Login'} content={<Login/>}/>
             }

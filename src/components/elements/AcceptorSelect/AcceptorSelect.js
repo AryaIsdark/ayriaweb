@@ -17,19 +17,20 @@ const AcceptorSelect = ({onChange, onSelect}) => {
     }
 
     return (
-        <div>
-            <Autocomplete
-                getItemValue={(item) => item.name}
-                value={value}
-                items={items}
-                renderItem={(item, isHighlighted) =>
-                    <div style={{background: isHighlighted ? 'lightgray' : 'white'}}>
-                        {item.name}
-                    </div>
-                }
-                onChange={(e) => onChange(e.target.value)}
-                onSelect={(value, item) => handleOnSelect(value, item)}
-            />
+        <div style={{zIndex:999, position:'relative'}}>
+        <Autocomplete
+            getItemValue={(item) => item.name}
+            wrapperStyle={{display:'inline'}}
+            value={value}
+            items={items}
+            renderItem={(item, isHighlighted) =>
+                <div style={{background: isHighlighted ? 'lightgray' : 'white'}}>
+                    {item.name}
+                </div>
+            }
+            onChange={(e) => onChange(e.target.value)}
+            onSelect={(value, item) => handleOnSelect(value, item)}
+        />
         </div>
     )
 }

@@ -68,9 +68,8 @@ const RateSingleActivity = ({activityItem, onCancel, onSuccess}) => {
             }
             <hr></hr>
             <Button onClick={cancel}>Cancel</Button>
+            <span className={'divider'}></span>
             <Button className={'btn-success'} onClick={submit}>Submit</Button>
-            <hr></hr>
-            {JSON.stringify(newRating)}
         </div>
     )
 };

@@ -5,7 +5,9 @@ const CustomModal = ({showModal, title, icon, content, showFooter}) => {
 
     return (
         <Modal isOpen={showModal}>
-            <ModalHeader>{title}</ModalHeader>
+            <div className="modal-header">
+                <div className="modal-title">{title}</div>
+            </div>
             <ModalBody>
                 {content}
             </ModalBody>

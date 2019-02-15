@@ -5,10 +5,12 @@ import CustomModal from "../../elements/CustomModal/CustomModal";
 import RateSingleActivity from "../../modules/rate-single-activity/rate-single-activity";
 import AccountBalance from "../../elements/AccountBalance/AccountBalance";
 import Refuel from "../refuel/refuel";
+import AnonymousPurchase from "../anonymous_purchase/anonymous_purchase";
 
 const Dashboard = () => {
 
     const [isShowRateModal, setIShowRateModal] = useState(false);
+    const [isShowRegisterAnonymPurchaseModal, setIsShowRegisterAnonymPurchaseModal] = useState(false);
     const [selectedActivityItemForRating, setSelectedActivityItemForRating] = useState({});
 
     const handleRecentActivityOnRowClick = (element) => {
@@ -32,42 +34,42 @@ const Dashboard = () => {
 
     }
 
+    const handleShowRegisterAnonymPurchaseModal = () => {
+        setIsShowRegisterAnonymPurchaseModal(true)
+    }
+
+    const handleCloseRegisterAnonymPurchaseModal = () => {
+        setIsShowRegisterAnonymPurchaseModal(false)
+    }
+
     return (
         <React.Fragment>
             <div className="row mt-5">
                 <div className="col-lg-4 col-md-12">
                     <CustomCard
                         title={'خریدهای اخیر شما'}
-                        description={'description'}
+                        description={''}
                         html={<RecentActivities onRowClick={element => handleRecentActivityOnRowClick(element)}/>}
                     />
                 </div>
                 <div className="col-lg-4 col-md-12 md-mt-5">
                     <CustomCard
                         title={'موجودی حساب شما'}
-                        description={'description'}
+                        description={''}
                         html={<Refuel/>}
                     />
                 </div>
                 <div className="col-lg-4 col-md-12 md-mt-5">
-                    <div className="featured-item style-2">
-                        <div className="featured-icon"><i className="flaticon-market"></i>
-                            <span className="rotateme"></span>
-                        </div>
-                        <div className="featured-title">
-                            <h5>Marketing</h5>
-                        </div>
-                        <div className="featured-desc">
-                            <p>Top quality Software services, labore et dolore magna ali qua Lorem ipsum dolor sit amet.</p>
-                            <a className="icon-btn mt-4" href="#"> <i className="la la-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
+                    <CustomCard
+                        title={'ثبت خرید بدون کارت'}
+                        description={'اگر میخواهید خرید بدون کارت خود را در سیستم ثبت نمایید دکمه شروع را فشاردهید '}
+                        html={<button onClick={handleShowRegisterAnonymPurchaseModal} className={'btn btn-success'}>شروع</button>}
+                    />
                 </div>
             </div>
 
 
-            <CustomModal title={'Rate modal'}
+            <CustomModal title={'امتیاز دهی به پذیرنده'}
                          showModal={isShowRateModal}
                          content={
                              <RateSingleActivity
@@ -77,6 +79,11 @@ const Dashboard = () => {
                                 activityItem={selectedActivityItemForRating}
                              />
                          }
+                         />
+
+            <CustomModal title={'ثبت خرید بدون کارت'}
+                         showModal={isShowRegisterAnonymPurchaseModal}
+                         content={<AnonymousPurchase onCancel={handleCloseRegisterAnonymPurchaseModal}/>}
                          />
         </React.Fragment>
     )

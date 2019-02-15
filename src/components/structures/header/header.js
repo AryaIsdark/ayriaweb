@@ -20,21 +20,12 @@ const Header = () => {
     },[])
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-white">
             <div className={'container'}>
                 <a className="navbar-brand " href="#">
                     <img src={'http://me.id.au/images/logo-white.png'} width={120}></img>
                 </a>
                 <Nav>
-                    <NavItem className={'active'}>
-                        <NavLink href="#"><Link to={'/dashboard'}>صفحه اصلی</Link></NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="#"><Link to={'/refuel'}>شارژ </Link></NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="#"><Link to={'/anonymouspurchase'}>ثبت خرید بدون کارت </Link></NavLink>
-                    </NavItem>
                     <NavItem>
                         <button className={'btn btn-green'} onClick={handleSignUpOnClick}>{loggedInUser.email}</button>
                         <Signup showModal={showSignUp}/>

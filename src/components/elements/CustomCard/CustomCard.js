@@ -13,6 +13,8 @@ const CustomCard = ({title, icon, image, description, html}) => {
             <p className={'text-info'} style={{fontSize:'20px'}}>{title}</p>
         </div>
         <div className="featured-desc">
+            <p>{description}</p>
+            <hr></hr>
             <div>{html}</div>
             <a className="icon-btn mt-4" href="#"> <i className="la la-angle-right"></i></a>
         </div>

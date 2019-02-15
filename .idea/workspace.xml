@@ -2,26 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe35d0e5-c7d4-45e9-ac2f-fe5a1ae71078" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/ApiFunctions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/Url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/fonts/iran-sans/IRANSansWeb(FaNum).woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/fonts/iran-sans/IRANSansWeb(FaNum)_Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/fonts/iran-sans/IRANSansWeb(FaNum)_Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/fonts/iran-sans/IRANSansWeb(FaNum)_Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/fonts/iran-sans/IRANSansWeb(FaNum)_UltraLight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utility/auth/TokenTools.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/elements/AccountBalance/AccountBalance.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/AccountBalance/AccountBalance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/elements/AccountRefuel/AccountRefuel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/AccountRefuel/AccountRefuel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/AcceptorSelect/AcceptorSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/AcceptorSelect/AcceptorSelect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/elements/CustomCard/CustomCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/CustomCard/CustomCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/CustomModal/CustomModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/CustomModal/CustomModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modules/rate-single-activity/rate-single-activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modules/rate-single-activity/rate-single-activity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modules/recent-acitvities/recent-activities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modules/recent-acitvities/recent-activities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/anonymous_purchase/anonymous_purchase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/anonymous_purchase/anonymous_purchase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/screens/dashboard/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/dashboard/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/refuel/refuel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/refuel/refuel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/structures/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/structures/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,54 +28,57 @@
     <session id="1030533876">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="13" />
+          <entry key="css" value="18" />
+          <entry key="html" value="1" />
           <entry key="ico" value="1" />
-          <entry key="js" value="73" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="96" />
           <entry key="json" value="7" />
           <entry key="lock" value="3" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
-          <entry key="png" value="4" />
-          <entry key="svg" value="1" />
+          <entry key="png" value="19" />
+          <entry key="svg" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="13" />
-          <entry key="Image" value="5" />
+          <entry key="CSS" value="18" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="21" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="73" />
+          <entry key="JavaScript" value="96" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SVG" value="1" />
+          <entry key="SVG" value="9" />
           <entry key="yarn.lock" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="2" />
+          <entry key="ESLintLanguageService" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="404" />
-          <entry key="js" value="7403" />
+          <entry key="css" value="566" />
+          <entry key="js" value="8516" />
           <entry key="json" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="404" />
+          <entry key="CSS" value="566" />
           <entry key="JSON" value="24" />
-          <entry key="JavaScript" value="7403" />
+          <entry key="JavaScript" value="8516" />
         </counts>
       </usages-collector>
     </session>
@@ -93,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            <state relative-caret-position="464">
+              <caret line="44" column="96" selection-start-line="44" selection-start-column="96" selection-end-line="44" selection-end-column="96" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -103,10 +98,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api/ApiFunctions.js">
+        <entry file="file://$PROJECT_DIR$/src/components/elements/CustomCard/CustomCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="152">
+              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -114,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/screens/dashboard/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            <state relative-caret-position="274">
+              <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -124,35 +119,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api/Api.js">
+        <entry file="file://$PROJECT_DIR$/src/components/modules/rate-single-activity/rate-single-activity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="42" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="42" />
+            <state relative-caret-position="407">
+              <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/screens/anonymous_purchase/anonymous_purchase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="76" column="37" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="37" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
-                <element signature="e#52#146#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utility/auth/Auth.js">
+        <entry file="file://$PROJECT_DIR$/src/components/elements/AcceptorSelect/AcceptorSelect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="380">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="45" />
               <folding>
-                <element signature="e#0#144#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api/Url.js">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-autocomplete/build/lib/Autocomplete.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="680">
+              <caret line="266" column="33" selection-start-line="266" selection-start-column="33" selection-end-line="266" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -160,20 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/structures/header/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/screens/login/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+            <state relative-caret-position="84">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -200,6 +200,9 @@
       <find>patter</find>
       <find>auth</find>
       <find>axios</find>
+      <find>confetti</find>
+      <find>rate rece</find>
+      <find>rate recent</find>
     </findStrings>
     <dirStrings>
       <dir>C:\workspace\ayriaweb\config</dir>
@@ -215,16 +218,8 @@
         <option value="$PROJECT_DIR$/src/components/structures/pagecontainer/pagecontainer.js" />
         <option value="$PROJECT_DIR$/src/components/screens/profile/profile.js" />
         <option value="$PROJECT_DIR$/src/components/elements/card/card.js" />
-        <option value="$PROJECT_DIR$/src/components/elements/CustomModal/CustomModal.js" />
-        <option value="$PROJECT_DIR$/src/router/routes.js" />
-        <option value="$PROJECT_DIR$/src/components/screens/anonymous_purchase/anonymous_purchase.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/components/testcomponent.js" />
-        <option value="$PROJECT_DIR$/src/components/modules/rate-single-activity/rate-single-activity.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/components/elements/CustomCard/CustomCard.js" />
-        <option value="$PROJECT_DIR$/src/components/modules/recent-acitvities/recent-activities.js" />
-        <option value="$PROJECT_DIR$/src/components/screens/dashboard/dashboard.js" />
         <option value="$PROJECT_DIR$/src/components/elements/AccountBalance/AccountBalance.js" />
         <option value="$PROJECT_DIR$/src/components/screens/refuel/refuel.js" />
         <option value="$PROJECT_DIR$/src/components/elements/AccountRefuel/AccountRefuel.js" />
@@ -236,9 +231,18 @@
         <option value="$PROJECT_DIR$/src/api/Api.js" />
         <option value="$PROJECT_DIR$/src/api/ApiFunctions.js" />
         <option value="$PROJECT_DIR$/src/utility/auth/Auth.js" />
+        <option value="$PROJECT_DIR$/src/components/screens/login/login.js" />
+        <option value="$PROJECT_DIR$/src/router/routes.js" />
+        <option value="$PROJECT_DIR$/src/components/elements/CustomCard/CustomCard.js" />
+        <option value="$PROJECT_DIR$/src/components/modules/recent-acitvities/recent-activities.js" />
+        <option value="$PROJECT_DIR$/src/components/screens/dashboard/dashboard.js" />
+        <option value="$PROJECT_DIR$/src/components/elements/CustomModal/CustomModal.js" />
+        <option value="$PROJECT_DIR$/src/components/elements/AcceptorSelect/AcceptorSelect.js" />
+        <option value="$PROJECT_DIR$/src/components/screens/anonymous_purchase/anonymous_purchase.js" />
+        <option value="$PROJECT_DIR$/src/components/modules/rate-single-activity/rate-single-activity.js" />
         <option value="$PROJECT_DIR$/src/components/structures/header/header.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/screens/login/login.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
       </list>
     </option>
   </component>
@@ -271,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,19 +286,127 @@
             <path>
               <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-autocomplete" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-autocomplete" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-autocomplete" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="reactstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="reactstrap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="AcceptorSelect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="CustomCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="CustomModal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="rate-single-activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="recent-acitvities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
@@ -301,6 +414,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="anonymous_purchase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
@@ -309,14 +430,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
@@ -337,24 +450,16 @@
               <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.js&#10;auth&#9;FILE&#9;file://C:/workspace/ayriaweb/src/utility/auth/Auth.js&#10;header&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/structures/header/header.js&#10;package&#9;FILE&#9;file://C:/workspace/ayriaweb/package.json&#10;package.json&#9;FILE&#9;file://C:/workspace/ayriaweb/package.json&#10;dashboar&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/dashboard/dashboard.js&#10;balance&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/AccountBalance/AccountBalance.js&#10;refuel&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/AccountRefuel/AccountRefuel.js&#10;app.css&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.css&#10;Rate&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/modules/rate-single-activity/rate-single-activity.js&#10;dashboard&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/dashboard/dashboard.js&#10;custom&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/CustomCard/CustomCard.js&#10;style.css&#9;FILE&#9;file://C:/workspace/ayriaweb/src/assets/styles/css/style.css&#10;routes&#9;FILE&#9;file://C:/workspace/ayriaweb/src/router/routes.js&#10;dash&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/dashboard/dashboard.js&#10;app.c&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.css" />
+    <property name="SearchEverywhereHistoryKey" value="app.css&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.css&#10;customcard&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/CustomCard/CustomCard.js&#10;app.&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.js&#10;app&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.css&#10;header&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/structures/header/header.js&#10;dashboard&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/dashboard/dashboard.js&#10;ano&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/anonymous_purchase/anonymous_purchase.js&#10;index&#9;FILE&#9;file://C:/workspace/ayriaweb/src/index.js&#10;routes&#9;FILE&#9;file://C:/workspace/ayriaweb/src/router/routes.js&#10;auth&#9;FILE&#9;file://C:/workspace/ayriaweb/src/utility/auth/Auth.js&#10;package&#9;FILE&#9;file://C:/workspace/ayriaweb/package.json&#10;package.json&#9;FILE&#9;file://C:/workspace/ayriaweb/package.json&#10;dashboar&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/dashboard/dashboard.js&#10;balance&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/AccountBalance/AccountBalance.js&#10;refuel&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/AccountRefuel/AccountRefuel.js&#10;Rate&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/modules/rate-single-activity/rate-single-activity.js&#10;custom&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/CustomCard/CustomCard.js&#10;style.css&#9;FILE&#9;file://C:/workspace/ayriaweb/src/assets/styles/css/style.css&#10;dash&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/dashboard/dashboard.js&#10;app.c&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.css" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="L# top-most EditorConfig file&#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -403,11 +508,12 @@
       <updated>1548681367674</updated>
       <workItem from="1548681369008" duration="21705000" />
       <workItem from="1550075522171" duration="23426000" />
+      <workItem from="1550232873318" duration="8610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55274000" />
+    <option name="totallyTimeSpent" value="64542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
@@ -426,7 +532,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3666027" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23512477" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -440,232 +546,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/screens/profile/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="true" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/structures/pagecontainer/pagecontainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/elements/CustomModal/CustomModal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/elements/Purchase/Purchase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/screens/anonymous_purchase/anonymous_purchase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="57" lean-forward="true" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/css-loader/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/css-loader/node_modules/postcss/gulpfile.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/css-loader/locals.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/css-loader/lib/compile-exports.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yarn-error.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/css/shortcodes.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="942">
-          <caret line="492" column="27" selection-start-line="492" selection-start-column="27" selection-end-line="492" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="333" column="15" selection-start-line="333" selection-start-column="15" selection-end-line="333" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="294" column="141" selection-start-line="294" selection-start-column="141" selection-end-line="294" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/pattern/03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/pattern/02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/pattern/04.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/pattern/01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/testcomponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="985">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modules/rate-single-activity/rate-single-activity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/elements/AccountBalance/AccountBalance.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modules/recent-acitvities/recent-activities.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/elements/CustomCard/CustomCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/elements/AccountRefuel/AccountRefuel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/screens/refuel/refuel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utility/auth/TokenTools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="70" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/start.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
           <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -690,20 +574,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Url.js">
+    <entry file="file://$PROJECT_DIR$/src/api/ApiFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utility/auth/Auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#144#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -713,55 +587,237 @@
           <caret line="2" column="42" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="42" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
-            <element signature="e#52#146#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/structures/header/header.js">
+    <entry file="file://$PROJECT_DIR$/src/utility/auth/Auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="437">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/screens/anonymous_purchase/reducer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Url.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/screens/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file:////FILE-01/UserProfiles$/ars/Downloads/softino-html-template-master/softino-html-template-master/Template/rtl/about-us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        <state relative-caret-position="551">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/logo-white.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/bg/11.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/bg/10.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/bg/09.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/bg/08.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/bg/07.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/bg/06.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/bg/05.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/ApiFunctions.js">
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/pattern/01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/pattern/02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/pattern/03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/pattern/04.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/pattern/07.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/svg/01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/svg/02.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/svg/03.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/svg/04.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/svg/05.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/svg/06.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/svg/07.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/svg/08.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/thumbnail/01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/thumbnail/02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/thumbnail/03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/css/shortcodes.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="95">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/screens/dashboard/dashboard.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/reactstrap/src/ModalHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state relative-caret-position="-163">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/CustomModal/CustomModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/modules/recent-acitvities/recent-activities.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/AcceptorSelect/AcceptorSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="45" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/screens/login/login.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-autocomplete/build/lib/Autocomplete.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+        <state relative-caret-position="680">
+          <caret line="266" column="33" selection-start-line="266" selection-start-column="33" selection-end-line="266" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/structures/header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/CustomCard/CustomCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/screens/dashboard/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/modules/rate-single-activity/rate-single-activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/screens/anonymous_purchase/anonymous_purchase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="76" column="37" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="44" column="96" selection-start-line="44" selection-start-column="96" selection-end-line="44" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
         </state>
       </provider>
     </entry>

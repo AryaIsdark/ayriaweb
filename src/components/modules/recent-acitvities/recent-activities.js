@@ -51,7 +51,7 @@ const RecentActivities = ({onRowClick}) => {
             </table>
             <CustomModal
                 showModal={selectedItem.id}
-                title={'Rate recent activity'}
+                title={'امتیاز دهی به پذیرنده'}
                 content={<RateSingleActivity onCancel={handleRecentActivityOnCancel} activityItem={selectedItem}/>}
             />
         </>
