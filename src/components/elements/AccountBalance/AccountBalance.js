@@ -12,9 +12,9 @@ const AccountBalance = ({backgroundColor, orientation, size}) => {
 
     return (
         <div style={style}>
-            <div className={'m-r'}>Your balance</div>
+            <div> </div>
             {/*TODO: Add thousand seperator*/}
-            <Badge color={'primary'} >250000</Badge>
+            <Badge color={'success'} >540,100,00</Badge><span style={{fontSize:'20px', marginRight:'10px'}}>تومان</span>
         </div>
     )
 }

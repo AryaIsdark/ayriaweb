@@ -11,7 +11,7 @@
 @font-face {
     font-family: 'IranSans';
     src:
-    url('assets/styles/fonts/iran-sans/IRANSans.ttf') format('woff'), /* Modern Browsers */
+    url('assets/styles/fonts/iran-sans/IRANSansWeb(FaNum).woff2') format('woff'), /* Modern Browsers */
     url('assets/styles/fonts/iran-sans/IRANSans.ttf')  format('truetype'), /* Safari, Android, iOS */
     url('assets/styles/fonts/iran-sans/IRANSans.ttf') format('svg'); /* Legacy iOS */
 }
@@ -19,6 +19,7 @@
 body {
     background-color: whitesmoke !important;
     font-family: 'IranSans';
+    direction: rtl;
 }
 
 .page-container {

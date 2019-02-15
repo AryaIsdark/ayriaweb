@@ -35,9 +35,9 @@ const Refuel = () => {
 
     return (
         <div>
-            <AccountBalance backgroundColor={'whitesmoke'} size={'50'} orientation={'right'}/>
+            <AccountBalance size={'50'} orientation={'center'}/>
             <AccountRefuel amount={0} onChange={handleAccountRefuelOnChange} onSubmit={handleAccountRefuelOnSubmit}/>
-            `Your new balance will be ${balance + _amount}`
+            {/*`Your new balance will be ${balance + _amount}`*/}
 
             <CustomModal showModal={_showModal}
                          title={'Shetab modal'}

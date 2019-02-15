@@ -1,6 +1,4 @@
 import React, {useState} from 'react';
-import {Button, Input, InputGroup, InputGroupAddon, InputGroupText} from "reactstrap";
-
 
 const AccountRefuel = ({amount, onChange, onSubmit}) => {
 
@@ -8,7 +6,7 @@ const AccountRefuel = ({amount, onChange, onSubmit}) => {
 
     const handleOnChange = (event) => {
         const value = Number(event.target.value)
-        if(value){
+        if (value) {
             setAmount(value);
             onChange(value);
         }
@@ -19,15 +17,13 @@ const AccountRefuel = ({amount, onChange, onSubmit}) => {
     }
 
     return (
-
         <>
-            <InputGroup>
-                <Input  type={'number'} value={_amount} onChange={handleOnChange} placeholder="Enter amount here"/>
-                <InputGroupAddon  addonType="append">
-                    <InputGroupText>$</InputGroupText>
-                </InputGroupAddon>
-            </InputGroup>
-            <Button size={'lg'} color={'success'} outline={true} onClick={handleSubmit}>Refuel</Button>
+            <div className={'form-group'}>
+                <input className={'form-control input-lg'} onChange={handleOnChange} placeholder={'رغم دلخواه را اینجا وارد کن '}></input>
+            </div>
+            <div className={'form-group'}>
+                <button className={'btn btn-lg btn-success'} onClick={handleSubmit}>شارژ کن</button>
+            </div>
         </>
     )
 }

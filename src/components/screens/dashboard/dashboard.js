@@ -37,14 +37,14 @@ const Dashboard = () => {
             <div className="row mt-5">
                 <div className="col-lg-4 col-md-12">
                     <CustomCard
-                        title={'Rate Recent Activities'}
+                        title={'خریدهای اخیر شما'}
                         description={'description'}
                         html={<RecentActivities onRowClick={element => handleRecentActivityOnRowClick(element)}/>}
                     />
                 </div>
                 <div className="col-lg-4 col-md-12 md-mt-5">
                     <CustomCard
-                        title={'Refuel'}
+                        title={'موجودی حساب شما'}
                         description={'description'}
                         html={<Refuel/>}
                     />
