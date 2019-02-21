@@ -12,7 +12,7 @@ const auth = new Auth();
 
 const App = () => {
 
-    const[isAuthenticated, setIsAuthenticated] = useState(false)
+    const[isAuthenticated, setIsAuthenticated] = useState(true)
 
     async function getAccount(){
         try {

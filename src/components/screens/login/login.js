@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Auth from '../../../utility/auth/Auth';
 import Signup from "../signup/signup";
 import {NavItem} from "reactstrap";
+import CustomModal from "../../elements/CustomModal/CustomModal";
 
 const auth = new Auth();
 
@@ -25,16 +26,23 @@ const Login = () => {
     },[])
 
     return (
-        <form>
-            <div className={'form-group'}>
-                <input className={'form-control input-lg'} placeholder={'username'} />
-            </div>
-            <div className={'form-group'}>
-                <input className={'form-control input-lg'} placeholder={'password'} />
-            </div>
-            <button className={'btn btn-primary btn-lg'} onClick={handleLogin}>Login</button>
-            <button className={'btn btn-green'} >ثبت نام کنید</button>
-        </form>
+        <CustomModal
+            title={'login'}
+            showModal={true}
+            content={
+            <form>
+                <div className={'form-group'}>
+                    <input className={'form-control input-lg'} placeholder={'username'} />
+                </div>
+                <div className={'form-group'}>
+                    <input className={'form-control input-lg'} placeholder={'password'} />
+                </div>
+                <button className={'btn btn-primary btn-lg'} onClick={handleLogin}>Login</button>
+                <button className={'btn btn-green'} >ثبت نام کنید</button>
+            </form>
+            }
+        />
+
     )
 }
 

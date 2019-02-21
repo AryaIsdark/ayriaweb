@@ -53,7 +53,6 @@ const RateSingleActivity = ({activityItem, onCancel, onSuccess}) => {
         <div>
 
             <StarRatings rating={newRating.rateValue} numberOfStars={5} changeRating={handleOnChangeRateValue}/>
-            <hr></hr>
             {(newRating.rateValue > -1 && newRating.rateValue < 3) &&
             <ul>
                 {reasons.map((element, index) =>

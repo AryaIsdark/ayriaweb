@@ -16,7 +16,7 @@ const CustomCard = ({title, icon, image, description, html}) => {
             <p>{description}</p>
             <hr></hr>
             <div>{html}</div>
-            <a className="icon-btn mt-4" href="#"> <i className="la la-angle-right"></i></a>
+            {/*<a className="icon-btn mt-4" href="#"> <i className="la la-angle-left"></i></a>*/}
         </div>
     </div>
     )

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Divider } from 'antd';
 
 const CommonDetailsView = ({ dataObject, fields }) => {
   const entries = Object.entries(dataObject);
@@ -14,7 +13,7 @@ const CommonDetailsView = ({ dataObject, fields }) => {
               <div style={{ float: 'left' }}>{putStringBeforeCaps(element[0])}</div>
               <div style={{ float: 'right' }}>{element[1]}</div>
               <div style={{ clear: 'both' }} />
-              <Divider style={{ margin: '7px 0' }} />
+              <hr style={{ margin: '7px 0' }} />
             </div>
           )}
         </div>

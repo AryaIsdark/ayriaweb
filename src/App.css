@@ -32,8 +32,13 @@ input {
     width: 100%;
 }
 
+.featured-item {
+    min-height: 100%;
+}
+
 .featured-item:after {
     background: transparent !important;
+
 }
 
 .divider {

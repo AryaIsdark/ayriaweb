@@ -2,10 +2,14 @@ import React from 'react';
 import {Input} from "reactstrap";
 
 
-const SignupFormStepOne = ({onInputChange}) => {
+const SignupFormStepOne = ({data, onInputChange, onNext}) => {
 
     const handleFormObject = (e) => {
         onInputChange(e)
+    }
+
+    const handleNext= () => {
+        onNext()
     }
 
     return (
@@ -13,23 +17,32 @@ const SignupFormStepOne = ({onInputChange}) => {
             <div>
                 <div className={'form-group'}>
                     <label>Name</label>
-                    <Input id={'name'} onChange={e => handleFormObject(e)}/>
+                    <Input id={'name'} value={data.name} onChange={e => handleFormObject(e)}/>
                 </div>
                 <div className={'form-group'}>
                     <label>PersonalId</label>
-                    <Input id={'personalId'} onChange={e => handleFormObject(e)}/>
+                    <Input id={'personalId'} value={data.personalId} onChange={e => handleFormObject(e)}/>
                 </div>
                 <div className={'form-group'}>
                     <label>Email</label>
-                    <Input id={'email'} onChange={e => handleFormObject(e)}/>
+                    <Input id={'email'} value={data.email} onChange={e => handleFormObject(e)}/>
+                </div>
+                <div className={'form-group'}>
+                    <label>Mobile</label>
+                    <Input id={'mobile'} value={data.mobile} onChange={e => handleFormObject(e)}/>
                 </div>
                 <div className={'form-group'}>
                     <label>Username</label>
-                    <Input id={'username'} onChange={e => handleFormObject(e)} />
+                    <Input id={'username'} value={data.username} onChange={e => handleFormObject(e)} />
                 </div>
+                {/*//TODO Add password strengh: use @react-password-strength*/}
                 <div className={'form-group'}>
                     <label>Password</label>
-                    <Input id={'password'} onChange={e => handleFormObject(e)} />
+                    <Input id={'password'} value={data.password} onChange={e => handleFormObject(e)} />
+                </div>
+                <hr></hr>
+                <div className={'form-group'}>
+                    <button onClick={handleNext} className={'btn btn-primary'}>Next</button>
                 </div>
             </div>
         </div>

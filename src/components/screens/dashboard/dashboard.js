@@ -3,7 +3,6 @@ import CustomCard from "../../elements/CustomCard/CustomCard";
 import RecentActivities from "../../modules/recent-acitvities/recent-activities";
 import CustomModal from "../../elements/CustomModal/CustomModal";
 import RateSingleActivity from "../../modules/rate-single-activity/rate-single-activity";
-import AccountBalance from "../../elements/AccountBalance/AccountBalance";
 import Refuel from "../refuel/refuel";
 import AnonymousPurchase from "../anonymous_purchase/anonymous_purchase";
 
