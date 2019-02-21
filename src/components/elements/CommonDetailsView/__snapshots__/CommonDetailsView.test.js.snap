@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CommonDetailsView /> renders correctly 1`] = `
+<div>
+  <div
+    key="A"
+  />
+  <div
+    key="B"
+  />
+  <div
+    key="C"
+  />
+</div>
+`;
+
+exports[`<CommonDetailsView /> renders fields correctly 1`] = `
+<div>
+  <div
+    key="A"
+  >
+    <div>
+      <div
+        style={
+          Object {
+            "float": "left",
+          }
+        }
+      >
+         A
+      </div>
+      <div
+        style={
+          Object {
+            "float": "right",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "clear": "both",
+          }
+        }
+      />
+      <Divider
+        style={
+          Object {
+            "margin": "7px 0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    key="B"
+  />
+  <div
+    key="C"
+  />
+</div>
+`;
