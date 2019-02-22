@@ -3,7 +3,7 @@ import AcceptorSelect from "../../elements/AcceptorSelect/AcceptorSelect";
 import reducer from './reducer';
 import {Input} from "reactstrap";
 import StarRatings from "react-star-ratings";
-import CustomModal from "../../elements/CustomModal/CustomModal";
+import CustomDatePicker from "../../elements/CustomDatePicker/CustomeDatePicker";
 
 const AnonymousPurchase = ({onCancel}) => {
     const initialState = {
@@ -31,6 +31,10 @@ const AnonymousPurchase = ({onCancel}) => {
         onCancel();
     }
 
+    const handleSelectInvoiceDate = (value)=>{
+        console.log(value);
+    }
+
     return (
         <div >
             <div className={'form-group'}>
@@ -45,7 +49,8 @@ const AnonymousPurchase = ({onCancel}) => {
             </div>
             <div className={'form-group'}>
                 <label>تاریخ فاکتور</label>
-                <Input id={'invoiceDate'} onChange={e => handleFormObject(e)} type={'date'}/>
+                {/*<Input id={'invoiceDate'} onChange={e => handleFormObject(e)} type={'date'}/>*/}
+                <CustomDatePicker onChange={handleSelectInvoiceDate}/>
             </div>
             <div className={'form-group'}>
                 <label>رقم </label>
