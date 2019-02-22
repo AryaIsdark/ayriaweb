@@ -11,6 +11,7 @@ const Login = () => {
     async function handleLogin(){
         try{
             const response = await auth.login('user','user',false);
+            debugger;
             if(response){
                 window.location.reload();
             }

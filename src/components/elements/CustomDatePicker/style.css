@@ -114,7 +114,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font-family: 'irSans';
+    font-family: 'IranSans';
 }
 
 #calendar div.week span.day {

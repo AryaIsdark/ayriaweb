@@ -16,7 +16,8 @@ export default class Auth {
 
     async login(username, password, rememberMe = false){
         try {
-            const response = await axios.post('http://localhost:8080/api/authenticate', {username, password, rememberMe});
+            debugger;
+            const response = await axios.post('http://ayria-dev.dati.io/api/authenticate', {username, password, rememberMe});
             localStorage.setItem('id_token', response.data.id_token);
             localStorage.setItem('access_token', response.data.id_token);
             console.log(response);
