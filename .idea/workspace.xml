@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe35d0e5-c7d4-45e9-ac2f-fe5a1ae71078" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/Api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/elements/CustomDatePicker/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/CustomDatePicker/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/screens/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/profile/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/profile/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/structures/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/structures/header/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utility/auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/auth/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,8 +37,8 @@
           <entry key="html" value="1" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="125" />
-          <entry key="json" value="9" />
+          <entry key="js" value="131" />
+          <entry key="json" value="10" />
           <entry key="lock" value="3" />
           <entry key="log" value="1" />
           <entry key="md" value="3" />
@@ -49,8 +51,8 @@
           <entry key="CSS" value="22" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="21" />
-          <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="125" />
+          <entry key="JSON" value="10" />
+          <entry key="JavaScript" value="131" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SVG" value="9" />
@@ -65,7 +67,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="664" />
-          <entry key="js" value="10204" />
+          <entry key="js" value="10515" />
           <entry key="json" value="24" />
         </counts>
       </usages-collector>
@@ -73,7 +75,7 @@
         <counts>
           <entry key="CSS" value="664" />
           <entry key="JSON" value="24" />
-          <entry key="JavaScript" value="10204" />
+          <entry key="JavaScript" value="10515" />
         </counts>
       </usages-collector>
     </session>
@@ -83,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
+            <state relative-caret-position="203">
+              <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -95,65 +97,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/screens/login/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/screens/anonymous_purchase/anonymous_purchase.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/elements/CustomDatePicker/CustomeDatePicker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="342">
+              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/screens/dashboard/dashboard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/elements/CustomModal/CustomModal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/elements/CustomDatePicker/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="93" column="51" lean-forward="true" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/utility/auth/Auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="3">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -161,18 +118,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/Api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="266">
+              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#132#226#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/screens/anonymous_purchase/reducer.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/api/ApiFunctions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/structures/header/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/screens/profile/profile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -200,6 +186,8 @@
       <find>rate recent</find>
       <find>border</find>
       <find>#calender-wrapper button</find>
+      <find>irSan</find>
+      <find>location.reload</find>
     </findStrings>
     <dirStrings>
       <dir>C:\workspace\ayriaweb\config</dir>
@@ -213,7 +201,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/structures/pagecontainer/pagecontainer.js" />
-        <option value="$PROJECT_DIR$/src/components/screens/profile/profile.js" />
         <option value="$PROJECT_DIR$/src/components/elements/card/card.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/components/testcomponent.js" />
@@ -229,7 +216,6 @@
         <option value="$PROJECT_DIR$/src/components/modules/recent-acitvities/recent-activities.js" />
         <option value="$PROJECT_DIR$/src/components/elements/CustomModal/CustomModal.js" />
         <option value="$PROJECT_DIR$/src/components/elements/AcceptorSelect/AcceptorSelect.js" />
-        <option value="$PROJECT_DIR$/src/components/structures/header/header.js" />
         <option value="$PROJECT_DIR$/src/components/screens/dashboard/dashboard.js" />
         <option value="$PROJECT_DIR$/src/components/elements/CustomCard/CustomCard.js" />
         <option value="$PROJECT_DIR$/src/components/modules/rate-single-activity/rate-single-activity.js" />
@@ -248,6 +234,8 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/screens/login/login.js" />
         <option value="$PROJECT_DIR$/src/utility/auth/Auth.js" />
+        <option value="$PROJECT_DIR$/src/components/screens/profile/profile.js" />
+        <option value="$PROJECT_DIR$/src/components/structures/header/header.js" />
       </list>
     </option>
   </component>
@@ -287,32 +275,6 @@
             <path>
               <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-persian-calendar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-persian-calendar" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-persian-calendar" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="index.es.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
@@ -389,6 +351,29 @@
               <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="structures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="structures" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ayriaweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ayriaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -405,7 +390,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="auth&#9;null&#9;null&#10;app.&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.js&#10;dashboard&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/dashboard/dashboard.js&#10;api&#9;FILE&#9;file://C:/workspace/ayriaweb/src/api&#10;customModa&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/CustomModal/CustomModal.js&#10;package.json&#9;FILE&#9;file://C:/workspace/ayriaweb/package.json&#10;anon&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/anonymous_purchase/anonymous_purchase.js&#10;app.cs&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.css&#10;app&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.js&#10;router&#9;FILE&#9;file://C:/workspace/ayriaweb/src/router&#10;app.css&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.css&#10;customcard&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/CustomCard/CustomCard.js&#10;header&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/structures/header/header.js&#10;ano&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/anonymous_purchase/anonymous_purchase.js&#10;index&#9;FILE&#9;file://C:/workspace/ayriaweb/src/index.js&#10;routes&#9;FILE&#9;file://C:/workspace/ayriaweb/src/router/routes.js&#10;package&#9;FILE&#9;file://C:/workspace/ayriaweb/package.json&#10;dashboar&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/dashboard/dashboard.js&#10;balance&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/AccountBalance/AccountBalance.js&#10;refuel&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/AccountRefuel/AccountRefuel.js&#10;Rate&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/modules/rate-single-activity/rate-single-activity.js&#10;custom&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/CustomCard/CustomCard.js&#10;style.css&#9;FILE&#9;file://C:/workspace/ayriaweb/src/assets/styles/css/style.css&#10;dash&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/dashboard/dashboard.js&#10;app.c&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.css" />
+    <property name="SearchEverywhereHistoryKey" value="header&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/structures/header/header.js&#10;login&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/login/login.js&#10;app.&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.js&#10;auth&#9;FILE&#9;file://C:/workspace/ayriaweb/src/utility/auth/Auth.js&#10;dashboard&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/dashboard/dashboard.js&#10;api&#9;FILE&#9;file://C:/workspace/ayriaweb/src/api&#10;customModa&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/CustomModal/CustomModal.js&#10;package.json&#9;FILE&#9;file://C:/workspace/ayriaweb/package.json&#10;anon&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/anonymous_purchase/anonymous_purchase.js&#10;app.cs&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.css&#10;app&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.js&#10;router&#9;FILE&#9;file://C:/workspace/ayriaweb/src/router&#10;app.css&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.css&#10;customcard&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/CustomCard/CustomCard.js&#10;ano&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/anonymous_purchase/anonymous_purchase.js&#10;index&#9;FILE&#9;file://C:/workspace/ayriaweb/src/index.js&#10;routes&#9;FILE&#9;file://C:/workspace/ayriaweb/src/router/routes.js&#10;package&#9;FILE&#9;file://C:/workspace/ayriaweb/package.json&#10;dashboar&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/dashboard/dashboard.js&#10;balance&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/AccountBalance/AccountBalance.js&#10;refuel&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/AccountRefuel/AccountRefuel.js&#10;Rate&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/modules/rate-single-activity/rate-single-activity.js&#10;custom&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/elements/CustomCard/CustomCard.js&#10;style.css&#9;FILE&#9;file://C:/workspace/ayriaweb/src/assets/styles/css/style.css&#10;dash&#9;FILE&#9;file://C:/workspace/ayriaweb/src/components/screens/dashboard/dashboard.js&#10;app.c&#9;FILE&#9;file://C:/workspace/ayriaweb/src/App.css" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="L# top-most EditorConfig file&#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../clientsideAzure" />
@@ -458,12 +443,12 @@
       <workItem from="1550232873318" duration="9163000" />
       <workItem from="1550476483254" duration="1230000" />
       <workItem from="1550598651115" duration="4270000" />
-      <workItem from="1550755657369" duration="6233000" />
+      <workItem from="1550755657369" duration="9948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76828000" />
+    <option name="totallyTimeSpent" value="80543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
@@ -496,15 +481,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/pattern/04.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/pattern/07.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/images/svg/01.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/styles/images/svg/02.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -589,16 +565,6 @@
           <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/structures/header/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -736,6 +702,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/screens/dashboard/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/screens/anonymous_purchase/reducer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/CustomDatePicker/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="93" column="51" lean-forward="true" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/CustomModal/CustomModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/elements/CustomDatePicker/CustomeDatePicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -753,61 +743,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/elements/CustomModal/CustomModal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/screens/dashboard/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
+        <state relative-caret-position="203">
+          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/screens/login/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/screens/anonymous_purchase/reducer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/api/Api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="266">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#132#226#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/elements/CustomDatePicker/style.css">
+    <entry file="file://$PROJECT_DIR$/src/api/ApiFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="93" column="51" lean-forward="true" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utility/auth/Auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="3">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/screens/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/screens/profile/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/structures/header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

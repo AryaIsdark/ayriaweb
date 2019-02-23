@@ -16,7 +16,6 @@ export default class Auth {
 
     async login(username, password, rememberMe = false){
         try {
-            debugger;
             const response = await axios.post('http://ayria-dev.dati.io/api/authenticate', {username, password, rememberMe});
             localStorage.setItem('id_token', response.data.id_token);
             localStorage.setItem('access_token', response.data.id_token);
@@ -26,6 +25,11 @@ export default class Auth {
         catch (err){
             console.log(err);
         }
+    }
+
+    logout(){
+        localStorage.removeItem('id_token');
+        localStorage.removeItem('access_token');
     }
 
     setLoggedInUser(data) {

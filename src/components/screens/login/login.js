@@ -8,10 +8,10 @@ const auth = new Auth();
 
 const Login = () => {
 
-    async function handleLogin(){
+    async function handleLogin(event){
+        event.preventDefault();
         try{
             const response = await auth.login('user','user',false);
-            debugger;
             if(response){
                 window.location.reload();
             }

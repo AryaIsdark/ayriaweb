@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import {Nav, NavItem, NavLink} from "reactstrap";
 import Signup from "../../screens/signup/signup";
 import Auth from '../../../utility/auth/Auth';
+import Profile from "../../screens/profile/profile";
 
 const auth = new Auth();
 
@@ -28,7 +29,7 @@ const Header = () => {
                 <Nav>
                     <NavItem>
                         <button className={'btn btn-green'} onClick={handleSignUpOnClick}>{loggedInUser.email}</button>
-                        <Signup showModal={showSignUp}/>
+                        <Profile/>
                     </NavItem>
                 </Nav>
             </div>
