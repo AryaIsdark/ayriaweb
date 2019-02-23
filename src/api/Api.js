@@ -14,7 +14,7 @@ const cache = setupCache({
 
 // define the api
 const api = create({
-    baseURL: 'http://ayria-dev.dati.io/api',
+    baseURL: 'http://app.ayriaclub.com/api',
     timeout:30000,
     headers: [{ Accept: 'application/json' }, { 'X-Client-WebUi': '1.0.1' }],
     adapter: cache.adapter
