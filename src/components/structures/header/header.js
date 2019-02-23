@@ -1,9 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {Link} from "react-router-dom";
-import {Nav, NavItem, NavLink} from "reactstrap";
-import Signup from "../../screens/signup/signup";
+import {Nav, NavItem} from "reactstrap";
 import Auth from '../../../utility/auth/Auth';
-import Profile from "../../screens/profile/profile";
 
 const auth = new Auth();
 
@@ -14,6 +11,12 @@ const Header = () => {
 
     const handleSignUpOnClick = () => {
         setShowSignUp(true);
+    }
+
+
+    const handleLogOff = (event) =>{
+        event.preventDefault();
+        auth.logout();
     }
 
     useEffect(()=>{
@@ -28,8 +31,8 @@ const Header = () => {
                 </a>
                 <Nav>
                     <NavItem>
-                        <button className={'btn btn-green'} onClick={handleSignUpOnClick}>{loggedInUser.email}</button>
-                        <Profile/>
+                        <button className={'btn btn-danger danger'} onClick={handleLogOff}>Log off</button>
+
                     </NavItem>
                 </Nav>
             </div>

@@ -30,6 +30,7 @@ export default class Auth {
     logout(){
         localStorage.removeItem('id_token');
         localStorage.removeItem('access_token');
+        window.location.reload();
     }
 
     setLoggedInUser(data) {
